@@ -6,10 +6,18 @@ This simple applications was developed to help using Arduino  based interfaces a
 When using oficial Arduino boards it is possible to program the board with custom firmaware so that the computer can regonize it as a generic Midi decive. However, for cheap Arduino knock-offs, that uses the CH340 chips and drivers, this is not possible. Therefore, this simple application is a workaround, that converts incoming serial data from the board into Midi data inside the computer.
 
 If you have oficial Arduino board and want to transform it into a "real" midi device, check out this projects:
+
 https://github.com/kuwatay/mocolufa
+
 https://github.com/ddiakopoulos/hiduino
 
 This app was testes in Windows10 64bit
+
+In Windows, it is a good idea to use this app with:
+
+https://www.tobias-erichsen.de/software/loopmidi.html
+
+
 
 
 Developed by André Perrotta
